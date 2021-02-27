@@ -6,6 +6,11 @@
     <title>Zentik :: Research, consultancy & engineering.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.png">
+    <script>
+        if (location.protocol !== 'https:') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+        }
+    </script>
     <style>
       body {
         background-color: #000000;
